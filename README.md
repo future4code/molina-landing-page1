@@ -2,4 +2,5 @@ npx# landing-page-template
 
 Nome dos integrantes: Antonio Machado e Carlos Felipe
 
-Link npx: http://possible-daughter.surge.sh/
+Link Surge
+http://ruthless-mother.surge.sh
