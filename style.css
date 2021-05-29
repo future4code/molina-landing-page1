@@ -9,8 +9,19 @@ body {font-size: 1.6rem; min-height: 100vh;}
 h1 {font-size: 3rem; margin-bottom: 1rem;}
 h2 {font-size: 1.6rem;}
 header {position: relative;}
-main {padding: 2rem;}
 
+svg{
+    position:flex;
+    flex-direction: row-reverse;
+    min-width: 30px;
+    max-width: 3vw;
+}
+
+.social-icons{
+position: relative;
+bottom: 200px;
+
+}
 /************** NAVIGATION ***************/
 
 .div-central {
@@ -113,6 +124,7 @@ h1{
     align-items: center;
     background-color: #ff914d;
     padding: 3%;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
 }
 
 
@@ -123,6 +135,8 @@ align-items: center;
     background-color: #ffbd59;
     width: 75%;
     padding-left: 4%;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+
 }
 
 
@@ -375,6 +389,7 @@ align-items: center;
     padding: 2%;
     padding-bottom: 3%;
     align-items: center;
+
         }
 
 
@@ -392,8 +407,11 @@ align-items: center;
             background-color: #ffbd59;
             width: 50%;
             padding: 2%;
-            padding-bottom: 1%;
+            padding-bottom: 0;
             padding-left: 4%;
+            margin-bottom: 0;
+            box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+
             
         }
 
@@ -410,6 +428,8 @@ align-items: center;
             width: 50%;
             padding: 2%;
             padding-left: 4%;
+            box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+
         }
 
 
@@ -433,6 +453,8 @@ button{
      padding-bottom: 2%;
      border-radius: 10px;
      font-size: large;
+     box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+
  }
 
 
@@ -449,13 +471,18 @@ button{
 
 .rodape {
     display: flex;
-    width: 100%;
+    width: 90%;
     float: left;
     background-color: #FFBD59;
     padding: 20px 8%;
+    padding-right: 10px;
     align-items: center;
     justify-content: space-evenly;
     height: 110px;
+    border-style:double;
+    border-bottom: 0;
+    border-right-width: 0;
+    border-left-width: 0;
 }
 
 .rodape p {
@@ -516,5 +543,6 @@ button{
 width: 10px;}
 
 svg{
-    width: 3vw;
+    min-width: 30px;
+    max-width: 3vw;
 }
