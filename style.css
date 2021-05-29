@@ -516,5 +516,6 @@ button{
 width: 10px;}
 
 svg{
-    width: 3vw;
+    min-width: 30px;
+    max-width: 3vw;
 }
